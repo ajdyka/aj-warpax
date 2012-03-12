@@ -1,0 +1,35 @@
+.entry {
+	border: 1px solid; 
+	margin-bottom: 20px; 
+	padding: 10px; 
+	width: 800px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+}
+
+.date {
+	display: block; 
+	font-size: 10px; 
+	float: right; 
+	width: 70px; 
+	text-align: right;
+}
+
+.title {
+	display: block; 
+	font-size: 20px;
+}
+
+.content {
+	display: block; 
+	margin-top: 5px;
+}
+
+.content p:last-child {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.title a img {
+	padding-top: 10px;
+}
